@@ -1,0 +1,141 @@
+
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+path {
+
+  opacity: 0.5;
+
+  stroke-width: 8px;
+  stroke: black;
+
+}
+
+
+div.tooltip {	
+    background: white;	
+
+    text-align: center;			
+    font: 14px Arial;
+
+    width: 250px;					
+    height: 36px;					
+    padding: 2px;				
+    
+    border: 10px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    position: absolute;				
+}
+
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script>
+// Heavily Modified and adapted from the Sunburst Tutorial, tutoiral was used as base
+// anims and tooltip were created using documentation + lots of stackoverflow references
+// http://www.thegreatcodeadventure.com/d3-sunburst-diagram-tutorial/
+
+//Defining vars for size of the D3
+
+var width = 1500;
+var height = 660;
+var radius = (Math.min(width, height) / 2) - 20;
+var formatNumber = d3.format(",d");
+var circ = Math.PI * 2;
+var color = d3.scaleOrdinal(d3.schemeCategory10);
+var partition = d3.partition();
+
+var x = d3.scaleLinear()
+    .range([0, circ]);
+
+var y = d3.scaleSqrt()
+    .range([0, radius]);
+
+
+// Calculate Arcs for drawing each segment
+var arc = d3.arc()
+    .startAngle(function(d) { 
+    	return Math.max(0, Math.min(circ, x(d.x0))); })
+    .endAngle(function(d) { 
+    	return Math.max(0, Math.min(circ, x(d.x1))); })
+    .innerRadius(function(d) { 
+    	return Math.max(0, y(d.y0)); })
+    .outerRadius(function(d) { 
+    	return Math.max(0, y(d.y1)); })
+    .cornerRadius(3);
+
+// Start SVG portion
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+  	//center SVG
+    .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
+
+// Detail the Div element for the tooltips, init set opacity to 0 so that they are hidden
+var div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);
+
+// Read deckData.json for info, make sure it doesnt fail, else execute
+d3.json("deckData.json", function(error, root) {
+  if (error) throw error;
+  
+  //set root, root will recursively go into every node and add up every amount of cards
+  root = d3.hierarchy(root);
+  root.sum(function(d) { return d.num; });
+
+  //SVG selecting path and going into each node
+  svg.selectAll("path")
+  	.data(partition(root).descendants())
+    .enter().append("path")
+     	.attr("d", arc)
+      	.style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
+      	.on("click", click)
+      	// Hover tooltip implementation, on hover, transition the tooltip to fade in
+      	.on("mouseover", function(d) {		
+        	div.transition()		
+            	.duration(150)		
+                .style("opacity", .8);		
+            div.html(d.data.name + "<br/>Card Amount : "  + formatNumber(d.value))	
+                .style("left", (d3.event.pageX) + "px")		
+                .style("top", (d3.event.pageY - 26) + "px");	
+            })					
+       	// Hover tooltip re-fade out once outside of the portion
+       	.on("mouseout", function(d) {		
+            div.transition()		
+                .duration(150)		
+                .style("opacity", 0);	
+      	});
+});
+
+
+
+//D3 transition / anim function to swap into a different cell
+// algorithm adapted from http://bl.ocks.org/denjn5/00a57e89c67906897b6eede56219170e
+// and https://github.com/d3/d3-transition/blob/master/README.md#transition_tween
+function click(d) {
+  var delay = function(d, i) {return i * 10};	
+  svg.transition()
+      .duration(475)
+      //blend values in order to smooth the transition / animation
+      .delay(delay)
+      .tween("scale", function() {
+        var xd = d3.interpolate(x.domain(), [d.x0, d.x1]);
+        var yd = d3.interpolate(y.domain(), [d.y0, 1]);
+        var yr = d3.interpolate(y.range(), [d.y0 ? 30 : 0, radius]);
+
+        return function(t) { 
+        	x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); 
+        };
+      })
+    .selectAll("path")
+    	//return new arc
+      .attrTween("d", function(d) { return function() { return arc(d); }; });
+}
+d3.select(self.frameElement).style("height", height + "px");
+</script>

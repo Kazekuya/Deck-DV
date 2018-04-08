@@ -1,0 +1,1385 @@
+{
+  "name": "Decks",
+  "children": [
+    {
+      "name": "World Chalice",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "Beckoned by the World Chalice",
+              "num": 2
+            },
+            {
+              "name": "Dogoran, the Mad Flame Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Eva",
+              "num": 1
+            },
+            {
+              "name": "Gameciel, the Mad Flame Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Gem-Knight Garnet",
+              "num": 1
+            },
+            {
+              "name": "Herald of Orange Light",
+              "num": 2
+            },
+            {
+              "name": "Lee the World Chalice Fairy",
+              "num": 3
+            },
+            {
+              "name": "Rescue Ferret",
+              "num": 1
+            },
+            {
+              "name": "The Agent of Creation - Venus",
+              "num": 3
+            },
+            {
+              "name": "Thunder King, the Lightningstrike Kaiju",
+              "num": 1
+            },
+            {
+              "name": "World Chalice Guardragon",
+              "num": 1
+            },
+            {
+              "name": "World Legacy World Chalice\"",
+              "num": 3
+            },
+            {
+              "name": "Brilliant Fusion",
+              "num": 3
+            },
+            {
+              "name": "Foolish Burial",
+              "num": 1
+            },
+            {
+              "name": "Kyoutou Waterfront",
+              "num": 2
+            },
+            {
+              "name": "Monster Reborn",
+              "num": 1
+            },
+            {
+              "name": "Soul Charge",
+              "num": 1
+            },
+            {
+              "name": "Transmodify",
+              "num": 3
+            },
+            {
+              "name": "Twin Twisters",
+              "num": 2
+            },
+            {
+              "name": "Unexpected Dai",
+              "num": 1
+            },
+            {
+              "name": "World Legacy Heart",
+              "num": 1
+            },
+            {
+              "name": "The Phantom Knights of Shade Brigandine",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Extra Deck",
+          "children": [
+            {
+              "name": "Gem-Knight Seraphinite",
+              "num": 1
+            },
+            {
+              "name": "Auram the World Chalice Blademaster",
+              "num": 1
+            },
+            {
+              "name": "Binary Sorceress",
+              "num": 1
+            },
+            {
+              "name": "Firewall Dragon",
+              "num": 1
+            },
+            {
+              "name": "Ib the World Chalice Priestess",
+              "num": 2
+            },
+            {
+              "name": "Imduk the World Chalice Dragon",
+              "num": 3
+            },
+            {
+              "name": "Link Spider",
+              "num": 1
+            },
+            {
+              "name": "Ningirsu the World Chalice Warrior",
+              "num": 1
+            },
+            {
+              "name": "Saryuja Skull Dread",
+              "num": 2
+            },
+            {
+              "name": "Tri-Gate Wizard",
+              "num": 1
+            },
+            {
+              "name": "Number 41 Bagooska the Terribly Tired Tapir",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Abyss Dweller",
+              "num": 1
+            },
+            {
+              "name": "Archlord Kristya",
+              "num": 1
+            },
+            {
+              "name": "Jinzo",
+              "num": 1
+            },
+            {
+              "name": "Mind Control",
+              "num": 1
+            },
+            {
+              "name": "Anti-Spell Fragrance",
+              "num": 3
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            },
+            {
+              "name": "Raigeki",
+              "num": 1
+            },
+            {
+              "name": "Mask of Restrict",
+              "num": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pendulum Magicians",
+      "children": [
+        {
+          "name": "Standard",
+          "children": [
+            {
+              "name": "Main Deck",
+              "children": [
+                {
+                  "name": "Astrograph Sorcerer",
+                  "num": 3
+                },
+                {
+                  "name": "DDD Rebel King Leonidas",
+                  "num": 3
+                },
+                {
+                  "name": "Ghost Ogre & Snow Rabbit",
+                  "num": 3
+                },
+                {
+                  "name": "Black Fang Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Chronograph Sorcerer",
+                  "num": 3
+                },
+                {
+                  "name": "Harmonizing Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Mythical Beast Jackal King",
+                  "num": 2
+                },
+                {
+                  "name": "Mythical Beast Master Cerberus",
+                  "num": 3
+                },
+                {
+                  "name": "Purple Poison Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Supreme King Dragon Darkwurm",
+                  "num": 3
+                },
+                {
+                  "name": "Stargazer Magician",
+                  "num": 1
+                },
+                {
+                  "name": "Timegazer Magician",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Gate Zero",
+                  "num": 2
+                },
+                {
+                  "name": "Foolish Burial",
+                  "num": 1
+                },
+                {
+                  "name": "Dragon Shrine",
+                  "num": 3
+                },
+                {
+                  "name": "Pendulum Call",
+                  "num": 2
+                },
+                {
+                  "name": "Pot of Desires",
+                  "num": 3
+                },
+                {
+                  "name": "Time Pendulumgraph",
+                  "num": 1
+                }
+              ]
+            },
+            {
+              "name": "Extra Deck",
+              "children": [
+                {
+                  "name": "Odd Eyes Vortex Dragon",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Dragon Starving Venom",
+                  "num": 2
+                },
+                {
+                  "name": "Borreload Dragon",
+                  "num": 1
+                },
+                {
+                  "name": "Heavymetalfoes Electrumite",
+                  "num": 2
+                },
+                {
+                  "name": "Zefra Metaltron",
+                  "num": 1
+                },
+                {
+                  "name": "Ignister Prominence, the Blasting Dracoslayer",
+                  "num": 1
+                },
+                {
+                  "name": "Psy-Framelord Omega",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Dragon Clear Wing",
+                  "num": 1
+                },
+                {
+                  "name": "Abyss Dweller",
+                  "num": 1
+                },
+                {
+                  "name": "Evilswarm Nightmare",
+                  "num": 1
+                },
+                {
+                  "name": "Number 38 Hope Harbringer Dragon Titanic Galaxy",
+                  "num": 1
+                },
+                {
+                  "name": "Odd Eyes Absolute Dragon",
+                  "num": 1
+                },
+                {
+                  "name": "Tornado Dragon",
+                  "num": 1
+                }
+              ]
+            },
+            {
+              "name": "Side Deck",
+              "children": [
+                {
+                  "name": "Ash Blossom & Joyous Spring",
+                  "num": 3
+                },
+                {
+                  "name": "Ghost Reaper & Winter Cherries",
+                  "num": 3
+                },
+                {
+                  "name": "Twin Twisters",
+                  "num": 3
+                },
+                {
+                  "name": "Dimensional Barrier",
+                  "num": 3
+                },
+                {
+                  "name": "Evenly Matched",
+                  "num": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Utopic Pendulum Magicians",
+          "children": [
+            {
+              "name": "Main Deck",
+              "children": [
+                {
+                  "name": "Abyss Actor Curtain Raiser",
+                  "num": 3
+                },
+                {
+                  "name": "Astrograph Sorcerer",
+                  "num": 3
+                },
+                {
+                  "name": "Black Fang Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Chronograph Sorcerer",
+                  "num": 3
+                },
+                {
+                  "name": "Harmonizing Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Mythical Beast Jackal King",
+                  "num": 2
+                },
+                {
+                  "name": "Mythical Beast Master Cerberus",
+                  "num": 3
+                },
+                {
+                  "name": "OafDragon Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Purple Poison Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Rescue Hamster",
+                  "num": 3
+                },
+                {
+                  "name": "Stargazer Magician",
+                  "num": 1
+                },
+                {
+                  "name": "Timegazer Magician",
+                  "num": 1
+                },
+                {
+                  "name": "Wisdom-Eye Magician",
+                  "num": 3
+                },
+                {
+                  "name": "Monster Reborn",
+                  "num": 1
+                },
+                {
+                  "name": "Pot of Desires",
+                  "num": 3
+                },
+                {
+                  "name": "Rank Up Magic Argent Chaos Force",
+                  "num": 1
+                },
+                {
+                  "name": "Upstart Goblin",
+                  "num": 1
+                }
+              ]
+            },
+            {
+              "name": "Extra Deck",
+              "children": [
+                {
+                  "name": "Odd Eyes Vortex Dragon",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Dragon Starving Venom",
+                  "num": 1
+                },
+                {
+                  "name": "Akashic Magician",
+                  "num": 1
+                },
+                {
+                  "name": "Heavymetalfoes Electrumite",
+                  "num": 2
+                },
+                {
+                  "name": "Zefra Metaltron",
+                  "num": 1
+                },
+                {
+                  "name": "Ignister Prominence, the Blasting Dracoslayer",
+                  "num": 1
+                },
+                {
+                  "name": "Psy-Framelord Omega",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Dragon Clear Wing",
+                  "num": 1
+                },
+                {
+                  "name": "Beatrice, Lady of the Eternal",
+                  "num": 1
+                },
+                {
+                  "name": "Gaia Dragon, the Thunder Charger",
+                  "num": 1
+                },
+                {
+                  "name": "Number 39 Utopia",
+                  "num": 1
+                },
+                {
+                  "name": "Number S0 Utopic Zexal",
+                  "num": 1
+                },
+                {
+                  "name": "Odd Eyes Absolute Dragon",
+                  "num": 1
+                },
+                {
+                  "name": "Supreme King Dragon Dark Rebellion",
+                  "num": 1
+                }
+              ]
+            },
+            {
+              "name": "Side Deck",
+              "children": [
+                {
+                  "name": "Abyss Dweller",
+                  "num": 1
+                },
+                {
+                  "name": "Effect Veiler",
+                  "num": 2
+                },
+                {
+                  "name": "Kumongous, the Sticky String Kaiju",
+                  "num": 3
+                },
+                {
+                  "name": "Performapal Seal Eel",
+                  "num": 3
+                },
+                {
+                  "name": "Cosmic Cyclone",
+                  "num": 3
+                },
+                {
+                  "name": "Mystical Space Typhoon",
+                  "num": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shaddoll Dinosaurs",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "Dogoran, the Mad Flame Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Fairy Tail Snow",
+              "num": 3
+            },
+            {
+              "name": "Effect Veiler",
+              "num": 2
+            },
+            {
+              "name": "Gem-Knight Garnet",
+              "num": 1
+            },
+            {
+              "name": "Ghost Ogre & Snow Rabbit",
+              "num": 3
+            },
+            {
+              "name": "Giant Rex",
+              "num": 2
+            },
+            {
+              "name": "Heroic CHallenger Thousand Blades",
+              "num": 1
+            },
+            {
+              "name": "Lonefire Blossom",
+              "num": 3
+            },
+            {
+              "name": "Psy Frame Driver",
+              "num": 1
+            },
+            {
+              "name": "Psy Framegear Gamma",
+              "num": 3
+            },
+            {
+              "name": "Performage Trick Clown",
+              "num": 1
+            },
+            {
+              "name": "Predaplant Darlingtonia Cabra",
+              "num": 1
+            },
+            {
+              "name": "Predaplant Orphrys Scorpio",
+              "num": 3
+            },
+            {
+              "name": "Shaddoll Beast",
+              "num": 1
+            },
+            {
+              "name": "Shaddoll Dragon",
+              "num": 1
+            },
+            {
+              "name": "Soul Eating Oviraptor",
+              "num": 3
+            },
+            {
+              "name": "Ultimate Conductor Tyranno",
+              "num": 2
+            },
+            {
+              "name": "Miscellaneousaurus",
+              "num": 1
+            },
+            {
+              "name": "Overtex Quoatlus",
+              "num": 2
+            },
+            {
+              "name": "Brilliant Fusion",
+              "num": 3
+            },
+            {
+              "name": "Double Evolution Pill",
+              "num": 3
+            },
+            {
+              "name": "Foolish Burial",
+              "num": 1
+            },
+            {
+              "name": "Fossil Dig",
+              "num": 3
+            },
+            {
+              "name": "Left Arm Offering",
+              "num": 3
+            },
+            {
+              "name": "Monster Reborn",
+              "num": 1
+            },
+            {
+              "name": "Pot of Desires",
+              "num": 3
+            },
+            {
+              "name": "Shaddoll Fusion",
+              "num": 3
+            },
+            {
+              "name": "Soul Charge",
+              "num": 1
+            },
+            {
+              "name": "That Grass Looks Greener",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Extra Deck",
+          "children": [
+            {
+              "name": "El Shaddoll Shekinaga",
+              "num": 1
+            },
+            {
+              "name": "El Shaddoll WInda",
+              "num": 1
+            },
+            {
+              "name": "Gem-Knight Seraphinite",
+              "num": 1
+            },
+            {
+              "name": "Curious, the Lightsworn Dominion",
+              "num": 1
+            },
+            {
+              "name": "Missus Radiant",
+              "num": 1
+            },
+            {
+              "name": "Saryuja Skull Dread",
+              "num": 1
+            },
+            {
+              "name": "Underclock Taker",
+              "num": 1
+            },
+            {
+              "name": "Psy Framelord Omega",
+              "num": 1
+            },
+            {
+              "name": "Bujinki Amaterasu",
+              "num": 1
+            },
+            {
+              "name": "Castel the Skyblaster Musketeer",
+              "num": 1
+            },
+            {
+              "name": "Evolzar Dolkka",
+              "num": 1
+            },
+            {
+              "name": "Evolzar Laggia",
+              "num": 1
+            },
+            {
+              "name": "M-X Saber Invoker",
+              "num": 1
+            },
+            {
+              "name": "Minerva the Exalted Lightsworn",
+              "num": 1
+            },
+            {
+              "name": "Tornado Dragon",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Chaos Hunter",
+              "num": 3
+            },
+            {
+              "name": "Dogoran, the Mad FLame Kaiju",
+              "num": 2
+            },
+            {
+              "name": "Effect Veiler",
+              "num": 1
+            },
+            {
+              "name": "Cosmic Cyclone",
+              "num": 3
+            },
+            {
+              "name": "Dimensional Barrier",
+              "num": 3
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trickstars",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "Droll & Lock Bird",
+              "num": 3
+            },
+            {
+              "name": "Eater of Millions",
+              "num": 2
+            },
+            {
+              "name": "Ghost OGre & Snow Rabbit",
+              "num": 3
+            },
+            {
+              "name": "Honest",
+              "num": 1
+            },
+            {
+              "name": "Trickstar Candina",
+              "num": 3
+            },
+            {
+              "name": "Trickstar Lilybell",
+              "num": 1
+            },
+            {
+              "name": "Trickstar Lycoris",
+              "num": 3
+            },
+            {
+              "name": "Dark Hole",
+              "num": 1
+            },
+            {
+              "name": "Forbidden Chalice",
+              "num": 2
+            },
+            {
+              "name": "Pot of Desires",
+              "num": 2
+            },
+            {
+              "name": "Raigeki",
+              "num": 1
+            },
+            {
+              "name": "Scapegoat",
+              "num": 3
+            },
+            {
+              "name": "Terraforming",
+              "num": 3
+            },
+            {
+              "name": "Trickstar Light Stage",
+              "num": 3
+            },
+            {
+              "name": "Solemn Strike",
+              "num": 3
+            },
+            {
+              "name": "Trickstar Reincarnation",
+              "num": 3
+            }
+          ]
+        },
+        {
+          "name": "Extra Deck",
+          "children": [
+            {
+              "name": "Akashic Magician",
+              "num": 1
+            },
+            {
+              "name": "Borreload Dragon",
+              "num": 1
+            },
+            {
+              "name": "Decode Talker",
+              "num": 1
+            },
+            {
+              "name": "Firewall Dragon",
+              "num": 1
+            },
+            {
+              "name": "Ib the World Chalice Priestess",
+              "num": 1
+            },
+            {
+              "name": "Link Spider",
+              "num": 3
+            },
+            {
+              "name": "Ningirsu the World Chalice Warrior",
+              "num": 1
+            },
+            {
+              "name": "Proxy Dragon",
+              "num": 1
+            },
+            {
+              "name": "Missus Radiant",
+              "num": 2
+            },
+            {
+              "name": "Trickstar Holly Angel",
+              "num": 1
+            },
+            {
+              "name": "Super quantal Mech Beast Grampulse",
+              "num": 1
+            },
+            {
+              "name": "Phantom Knights of Break Sword",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Artifact Lancea",
+              "num": 2
+            },
+            {
+              "name": "Gadarla, the Mystery Dust Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Gameciel, the Sea Turtle Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Thunder King, the Lightningstrike Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Cosmic Cyclone",
+              "num": 3
+            },
+            {
+              "name": "Interrupted Kaiju Slumber",
+              "num": 1
+            },
+            {
+              "name": "Dimensional Barrier",
+              "num": 3
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "True Draco Demise",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Amano-Iwato",
+              "num": 2
+            },
+            {
+              "name": "Ignis Heat, the True Dracowarrior",
+              "num": 1
+            },
+            {
+              "name": "Majesty Maiden, the True Dracoslayer",
+              "num": 3
+            },
+            {
+              "name": "Master Peace, the True Dracoslaying King",
+              "num": 2
+            },
+            {
+              "name": "Card of Demise",
+              "num": 3
+            },
+            {
+              "name": "Disciples of the True Dracophoenix",
+              "num": 3
+            },
+            {
+              "name": "Dragonic Diagram",
+              "num": 3
+            },
+            {
+              "name": "Pot of Desires",
+              "num": 3
+            },
+            {
+              "name": "Pot of Duality",
+              "num": 3
+            },
+            {
+              "name": "Terraforming",
+              "num": 3
+            },
+            {
+              "name": "True Draco Heritage",
+              "num": 3
+            },
+            {
+              "name": "Upstart Goblin",
+              "num": 1
+            },
+            {
+              "name": "Anti-SPell Fragrance",
+              "num": 3
+            },
+            {
+              "name": "Skill Drain",
+              "num": 1
+            },
+            {
+              "name": "Solemn Judgement",
+              "num": 1
+            },
+            {
+              "name": "The Monarchs Erupt",
+              "num": 2
+            },
+            {
+              "name": "True Draco Apocalypse",
+              "num": 3
+            },
+            {
+              "name": "True King's Return",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "The Winged Dragon of Ra - Sphere Mode",
+              "num": 2
+            },
+            {
+              "name": "Cosmic Cyclone",
+              "num": 3
+            },
+            {
+              "name": "Raigeki",
+              "num": 1
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            },
+            {
+              "name": "Imperial Iron Wall",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zefra",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "Destrudo the Lost Dragon's Frisson",
+              "num": 1
+            },
+            {
+              "name": "Ghost Ogre & Snow Rabbit",
+              "num": 3
+            },
+            {
+              "name": "Jiaotou, Darkness of the Yang Zing",
+              "num": 1
+            },
+            {
+              "name": "Psy Frame Driver",
+              "num": 1
+            },
+            {
+              "name": "Psy Framgear Gamma",
+              "num": 3
+            },
+            {
+              "name": "Ritual Beast Tamer Zefrawendi",
+              "num": 1
+            },
+            {
+              "name": "Satellarknight Zefrathuban",
+              "num": 1
+            },
+            {
+              "name": "Stellarknight Zefraxciaton",
+              "num": 1
+            },
+            {
+              "name": "Supreme King Dragon Darkwurm",
+              "num": 1
+            },
+            {
+              "name": "Supreme King Gate Zero",
+              "num": 1
+            },
+            {
+              "name": "Zefraath",
+              "num": 3
+            },
+            {
+              "name": "Zefraniu, Secret of the Yang Zing",
+              "num": 3
+            },
+            {
+              "name": "Zefraxi, Treasure of the Yang Zing",
+              "num": 3
+            },
+            {
+              "name": "Dragon Ravine",
+              "num": 1
+            },
+            {
+              "name": "Dragon Shrine",
+              "num": 3
+            },
+            {
+              "name": "Foolish Burial",
+              "num": 1
+            },
+            {
+              "name": "Oracle of Zefra",
+              "num": 3
+            },
+            {
+              "name": "Terraforming",
+              "num": 3
+            },
+            {
+              "name": "Zefra Providence",
+              "num": 3
+            },
+            {
+              "name": "Nine Pillars of Yang Zing",
+              "num": 1
+            },
+            {
+              "name": "Zefra Divine Strike",
+              "num": 1
+            },
+            {
+              "name": "Zefra War",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Extra Deck",
+          "children": [
+            {
+              "name": "Borreload Dragon",
+              "num": 1
+            },
+            {
+              "name": "Decode Talker",
+              "num": 1
+            },
+            {
+              "name": "Heavymetalfoes Electrumite",
+              "num": 2
+            },
+            {
+              "name": "Baxia",
+              "num": 1
+            },
+            {
+              "name": "Chaofeng",
+              "num": 1
+            },
+            {
+              "name": "Metaphys Horus",
+              "num": 1
+            },
+            {
+              "name": "Psy Framelord Omega",
+              "num": 1
+            },
+            {
+              "name": "Stardust Charge Warrior",
+              "num": 1
+            },
+            {
+              "name": "Vermillion Dragon Mech",
+              "num": 1
+            },
+            {
+              "name": "Yazi",
+              "num": 1
+            },
+            {
+              "name": "Constellar Ptolmey M7",
+              "num": 1
+            },
+            {
+              "name": "Photon Strike Bounzer",
+              "num": 1
+            },
+            {
+              "name": "Tornado Dragon",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Armageddon Knight",
+              "num": 3
+            },
+            {
+              "name": "Cosmic Cyclone",
+              "num": 3
+            },
+            {
+              "name": "Dark Hole",
+              "num": 1
+            },
+            {
+              "name": "Raigeki",
+              "num": 1
+            },
+            {
+              "name": "Set Rotation",
+              "num": 1
+            },
+            {
+              "name": "Dimensional Barrior",
+              "num": 3
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mekk-Knight Invoked",
+      "children": [
+        {
+          "name": "Main Deck",
+          "children": [
+            {
+              "name": "Aleister the Invoker",
+              "num": 3
+            },
+            {
+              "name": "Ash Blossom & Joyous Spring",
+              "num": 3
+            },
+            {
+              "name": "Effect Veiler",
+              "num": 3
+            },
+            {
+              "name": "Ghost Ogre & Snow Rabbit",
+              "num": 3
+            },
+            {
+              "name": "Mekk Knight Blue Sky",
+              "num": 3
+            },
+            {
+              "name": "Mekk Knight Indigo Eclipse",
+              "num": 3
+            },
+            {
+              "name": "Mekk Knight Purple Nightfall",
+              "num": 1
+            },
+            {
+              "name": "Mekk Knight Red Moon",
+              "num": 1
+            },
+            {
+              "name": "Dark Hole",
+              "num": 1
+            },
+            {
+              "name": "Invocation",
+              "num": 3
+            },
+            {
+              "name": "Magical Meltdown",
+              "num": 3
+            },
+            {
+              "name": "Mind Control",
+              "num": 3
+            },
+            {
+              "name": "Pot of Desires",
+              "num": 3
+            },
+            {
+              "name": "Raigeki",
+              "num": 1
+            },
+            {
+              "name": "Scapegoat",
+              "num": 3
+            },
+            {
+              "name": "Terraforming",
+              "num": 3
+            }
+          ]
+        },
+        {
+          "name": "Extra Deck",
+          "children": [
+            {
+              "name": "Invoked Caliga",
+              "num": 1
+            },
+            {
+              "name": "Invoked Elysium",
+              "num": 1
+            },
+            {
+              "name": "Invoked Mechaba",
+              "num": 3
+            },
+            {
+              "name": "Invoked Purgatorio",
+              "num": 2
+            },
+            {
+              "name": "Borreload Dragon",
+              "num": 1
+            },
+            {
+              "name": "Clara & Rushka, the Ventriloduo",
+              "num": 1
+            },
+            {
+              "name": "Link Spider",
+              "num": 2
+            },
+            {
+              "name": "Missus Radiant",
+              "num": 1
+            },
+            {
+              "name": "Proxy Dragon",
+              "num": 1
+            },
+            {
+              "name": "Saryuja Skull Dread",
+              "num": 1
+            },
+            {
+              "name": "Underclock Taker",
+              "num": 1
+            }
+          ]
+        },
+        {
+          "name": "Side Deck",
+          "children": [
+            {
+              "name": "Artifact Lancea",
+              "num": 3
+            },
+            {
+              "name": "Dogoran, the Mad Flame Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Gadarla, the Mystery Dust Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Gameciel, the Sea Turtle Kaiju",
+              "num": 1
+            },
+            {
+              "name": "Cosmic Cyclone",
+              "num": 3
+            },
+            {
+              "name": "Interrupted Kaiju Slumber",
+              "num": 1
+            },
+            {
+              "name": "Dimensional Barrier",
+              "num": 3
+            },
+            {
+              "name": "Evenly Matched",
+              "num": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
