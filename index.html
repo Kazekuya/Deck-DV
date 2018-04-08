@@ -1,18 +1,21 @@
+<!-- Brian Khieu - 4/8/2018 -->
 
 
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
 
-path {
-
-  opacity: 0.5;
-
-  stroke-width: 8px;
-  stroke: black;
-
+h1{
+	text-align: left
+	font: Arial;
 }
 
+path {
+  opacity: 0.5;
+
+  stroke-width: 2px;
+  stroke: white;
+}
 
 div.tooltip {	
     background: white;	
@@ -32,29 +35,29 @@ div.tooltip {
 
 </style>
 <body>
+<!-- Doesnt look as good as I thought it would -->	
+<!-- <h1>Deck D.V.</h1> -->	
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
-// Heavily Modified and adapted from the Sunburst Tutorial, tutoiral was used as base
+// Heavily Modified and adapted from the Sunburst Tutorial, tutoiral was used as the very basic starting point for the shape
 // anims and tooltip were created using documentation + lots of stackoverflow references
 // http://www.thegreatcodeadventure.com/d3-sunburst-diagram-tutorial/
 
-//Defining vars for size of the D3
-
+//Defining vars section
 var width = 1500;
-var height = 660;
+var height = 680;
+var w2 = width / 2;
+var h2 = height / 2;
 var radius = (Math.min(width, height) / 2) - 20;
 var formatNumber = d3.format(",d");
 var circ = Math.PI * 2;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var partition = d3.partition();
-
 var x = d3.scaleLinear()
     .range([0, circ]);
-
 var y = d3.scaleSqrt()
     .range([0, radius]);
-
 
 // Calculate Arcs for drawing each segment
 var arc = d3.arc()
@@ -74,7 +77,7 @@ var svg = d3.select("body").append("svg")
     .attr("height", height)
   .append("g")
   	//center SVG
-    .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
+    .attr("transform", "translate(" + w2 + "," + h2 + ")");
 
 // Detail the Div element for the tooltips, init set opacity to 0 so that they are hidden
 var div = d3.select("body").append("div")	
@@ -97,7 +100,12 @@ d3.json("deckData.json", function(error, root) {
       	.style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
       	.on("click", click)
       	// Hover tooltip implementation, on hover, transition the tooltip to fade in
-      	.on("mouseover", function(d) {		
+      	// Added highlighting + fading of non selected elements
+      	.on("mouseover", function(d) {
+      		d3.selectAll("path")
+      			.style("opacity", 0.2);
+      		d3.select(this)
+      			.style("opacity", 0.5);		
         	div.transition()		
             	.duration(150)		
                 .style("opacity", .8);		
@@ -106,7 +114,10 @@ d3.json("deckData.json", function(error, root) {
                 .style("top", (d3.event.pageY - 26) + "px");	
             })					
        	// Hover tooltip re-fade out once outside of the portion
-       	.on("mouseout", function(d) {		
+       	// Reset back to non fading
+       	.on("mouseout", function(d) {
+       		d3.selectAll("path")
+      			.style("opacity", 0.5);			
             div.transition()		
                 .duration(150)		
                 .style("opacity", 0);	
@@ -119,11 +130,12 @@ d3.json("deckData.json", function(error, root) {
 // algorithm adapted from http://bl.ocks.org/denjn5/00a57e89c67906897b6eede56219170e
 // and https://github.com/d3/d3-transition/blob/master/README.md#transition_tween
 function click(d) {
-  var delay = function(d, i) {return i * 10};	
+  var delay = function(d, i) {return i * 5};	
   svg.transition()
       .duration(475)
       //blend values in order to smooth the transition / animation
       .delay(delay)
+      //slight staggering
       .tween("scale", function() {
         var xd = d3.interpolate(x.domain(), [d.x0, d.x1]);
         var yd = d3.interpolate(y.domain(), [d.y0, 1]);
