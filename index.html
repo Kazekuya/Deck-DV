@@ -41,8 +41,8 @@ div.tooltip {
 
 <script>
 // Heavily Modified and adapted from the Sunburst Tutorial, tutoiral was used as the very basic starting point for the shape
-// anims and tooltip were created using documentation + lots of stackoverflow references
-// http://www.thegreatcodeadventure.com/d3-sunburst-diagram-tutorial/
+// anims and tooltip were created using documentation https://denjn5.github.io/sunburst-2/
+// 
 
 //Defining vars section
 var width = 1500;
@@ -54,10 +54,8 @@ var formatNumber = d3.format(",d");
 var circ = Math.PI * 2;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 var partition = d3.partition();
-var x = d3.scaleLinear()
-    .range([0, circ]);
-var y = d3.scaleSqrt()
-    .range([0, radius]);
+var x = d3.scaleLinear().range([0, circ]);
+var y = d3.scaleSqrt().range([0, radius]);
 
 // Calculate Arcs for drawing each segment
 var arc = d3.arc()
@@ -127,14 +125,14 @@ d3.json("deckData.json", function(error, root) {
 
 
 //D3 transition / anim function to swap into a different cell
-// algorithm adapted from http://bl.ocks.org/denjn5/00a57e89c67906897b6eede56219170e
-// and https://github.com/d3/d3-transition/blob/master/README.md#transition_tween
 function click(d) {
   var delay = function(d, i) {return i * 5};	
   svg.transition()
       .duration(475)
       //blend values in order to smooth the transition / animation
       .delay(delay)
+      // algorithm adapted from http://bl.ocks.org/denjn5/00a57e89c67906897b6eede56219170e
+	  // and https://github.com/d3/d3-transition/blob/master/README.md#transition_tween
       //slight staggering
       .tween("scale", function() {
         var xd = d3.interpolate(x.domain(), [d.x0, d.x1]);
@@ -142,12 +140,17 @@ function click(d) {
         var yr = d3.interpolate(y.range(), [d.y0 ? 30 : 0, radius]);
 
         return function(t) { 
-        	x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); 
+        	x.domain(xd(t)); 
+        	y.domain(yd(t)).range(yr(t)); 
         };
       })
     .selectAll("path")
     	//return new arc
       .attrTween("d", function(d) { return function() { return arc(d); }; });
 }
+
+//function tweenArc(d){
+//}
+
 d3.select(self.frameElement).style("height", height + "px");
 </script>
